@@ -1,4 +1,7 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { GenerateSW } = require('workbox-webpack-plugin');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
 
 module.exports = () => {
   return {
